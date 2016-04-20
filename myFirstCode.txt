@@ -1,4 +1,4 @@
--- version:	r.1.0.1
+-- version:	r.1.0.2
 --
 --   fix 1.0.1: added hullo@@@
 --   fix 1.0.2: added join 1=2
