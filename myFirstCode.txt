@@ -1,8 +1,10 @@
 -- version:	r.1.0.0
 --
+--  fix 1.0.2: added join
 select
 	hello!
 ,	hello?
 from
 	dual
+	inner join (select 1 from dual) on 1=1
 where 1=1
