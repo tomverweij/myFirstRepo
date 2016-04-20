@@ -1,10 +1,12 @@
--- version:	r.1.0.0
+-- version:	r.1.0.1
 --
 --   fix 1.0.1: added hullo@@@
+--   fix 1.0.2: added join 1=2
 select
 	hello!
 ,	hello?
 ,	hullo@@@
 from
 	dual
+	inner join (select 1 from dual) on 1=2
 where 1=1
